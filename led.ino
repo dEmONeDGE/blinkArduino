@@ -3,6 +3,8 @@
 void setup(){
   Serial.begin(9600);
   pinMode(led, OUTPUT);
+
+  Serial.println("Bienvenidos al hola mundo.");
 }
 
 void loop(){
